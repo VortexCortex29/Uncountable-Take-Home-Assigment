@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -18,3 +14,4 @@ You will also see any lint errors in the console.
 
 Runs the backend api server.
 Open on [http://localhost:3001](http://localhost:3001)
+The database that this server uses is included in the folder under experiments.db
