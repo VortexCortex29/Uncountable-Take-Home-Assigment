@@ -9,7 +9,6 @@ type CustomRadarChartProps = {
 };
 
 function CustomRadarChart({experimentData, attributeNames}: CustomRadarChartProps) {
-    console.log(experimentData)
     const inputColumnsOptions: SelectOptions[] = attributeNames.map(column => ({ label: column, value: column }));
     
     const [filteredExperimentData, setFilteredExperimentData] = useState(experimentData)
